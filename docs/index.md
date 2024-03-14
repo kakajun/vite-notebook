@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 学习经历
-      link: /example
+      link: /guide/
     - theme: alt
       text: 浏览我的gitHub
       link: https://github.com/kakajun
