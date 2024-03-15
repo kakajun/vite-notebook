@@ -41,7 +41,7 @@
 ```js
 // 1. 定义路由组件.
 // 也可以从其他文件导入
-const Home = { template: '<div>Home</div>' }
+          const Home = { template: '<div>Home</div>' }
 const About = { template: '<div>About</div>' }
 
 // 2. 定义一些路由
