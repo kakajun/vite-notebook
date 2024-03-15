@@ -7,7 +7,7 @@ hero:
   tagline: 记录要点,形成记忆串联.
   actions:
     - theme: brand
-      text: 学习经历
+      text: 前端知识
       link: /guide/
     - theme: alt
       text: 浏览我的gitHub

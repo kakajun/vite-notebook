@@ -24,36 +24,39 @@ export const config: LocaleSpecificConfig<DefaultTheme.Config> = {
     nav: nav(),
 
     sidebar: {
-      "/": [
-        {
-          items: [
-            {
-              text: "介绍",
-              link: "/introduction.html",
-            },
-            {
-              text: "安装",
-              link: "/installation.html",
-            },
-          ],
-        },
+      "/guide/": [
         {
           text: "基础",
+          collapsed: false,
           items: [
             {
               text: "入门",
               link: "/guide/",
+            },
+            {
+              text: "www",
+              link: "/guide/ab",
+            }
+          ],
+        },
+      ],
+      "/css/": [
+        {
+          text: "基础",
+          collapsed: false,
+          items: [
+            {
+              text: "入门",
+              link: "/css/",
+            },
+            {
+              text: "qqq",
+              link: "/css/ab",
             }
           ],
         },
       ],
     },
-
-    // footer: {
-    //   copyright: "Copyright © 2014-present Evan You, Eduardo San Martin Morote",
-    //   message: "Released under the MIT License.",
-    // },
-
     algolia: {
       appId: "BTNTW3I1XP",
       apiKey: "771d10c8c5cc48f7922f15048b4d931c",
@@ -64,7 +67,7 @@ export const config: LocaleSpecificConfig<DefaultTheme.Config> = {
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
-      text: "教程",
+      text: "前端知识",
       link: "/guide/",
       activeMatch: "^/guide/",
     },
