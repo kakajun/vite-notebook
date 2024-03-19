@@ -55,6 +55,18 @@ export const config: LocaleSpecificConfig<DefaultTheme.Config> = {
             }
           ]
         }
+      ],
+      '/philosophy/': [
+        {
+          text: '哲学',
+          collapsed: false,
+          items: [
+            {
+              text: '认知觉醒',
+              link: '/philosophy/index'
+            }
+          ]
+        }
       ]
     },
     algolia: {
@@ -75,6 +87,11 @@ function nav(): DefaultTheme.NavItem[] {
       text: 'CSS 相关',
       link: '/css/',
       activeMatch: '^/css/'
+    },
+    {
+      text: '方法论',
+      link: '/philosophy/',
+      activeMatch: '^/philosophy/'
     },
     {
       text: 'plugin 相关',
