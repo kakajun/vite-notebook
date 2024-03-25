@@ -26,11 +26,11 @@ export const config: LocaleSpecificConfig<DefaultTheme.Config> = {
     sidebar: {
       '/guide/': [
         {
-          text: '基础',
+          text: '函数式编程',
           collapsed: false,
           items: [
             {
-              text: '入门',
+              text: '盒子',
               link: '/guide/'
             },
             {
