@@ -50,6 +50,10 @@ export const config: LocaleSpecificConfig<DefaultTheme.Config> = {
             {
               text: 'proxy',
               link: '/guide/vue/proxy'
+            },
+            {
+              text: 'proxy-demo',
+              link: '/guide/vue/proxy-demo'
             }
           ]
         }
