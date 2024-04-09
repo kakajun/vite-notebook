@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="aa">abc</div>
+  </body>
+  <script type="module">
+    import { nextTick, init } from './nextTick.js'
+
+    init(); // 初始化 MutationObserver，但不会影响 nextTick 的功能
+
+    const dom = document.getElementById('aa')
+    console.log(dom.innerHTML) // 打印原始 innerHTML: abc
+    dom.innerHTML = 123
+    nextTick(() => {
+      console.log(dom.innerHTML) // 打印更新后的 innerHTML: 123
+    })
+  </script>
+</html>

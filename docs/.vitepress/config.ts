@@ -38,6 +38,20 @@ export const config: LocaleSpecificConfig<DefaultTheme.Config> = {
               link: '/guide/ab'
             }
           ]
+        },
+        {
+          text: 'vue源码分析',
+          collapsed: false,
+          items: [
+            {
+              text: 'nextTick',
+              link: '/guide/vue/'
+            },
+            {
+              text: 'proxy',
+              link: '/guide/vue/proxy'
+            }
+          ]
         }
       ],
       '/css/': [
