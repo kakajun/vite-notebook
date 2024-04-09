@@ -39,3 +39,7 @@ Proxy 对象不仅仅局限于响应式系统或Vue框架中的使用。它可�
 3. 对象属性的链式调用
 
 <<< @/code/proxy/MathOperations.js
+
+4. 自定义序列化和反序列化
+
+<<< @/code/proxy/json.js
