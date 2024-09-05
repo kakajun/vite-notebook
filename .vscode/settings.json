@@ -131,12 +131,5 @@
       "source.fixAll.eslint": "always",
       "source.fixAll.stylelint": "explicit"
     }
-  },
-  "i18n-ally.localesPaths": [
-    "src/lang",
-    "public/static/ueditor/lang",
-    "src/static/tinymce/langs",
-    "src/static/utf8-jsp/lang",
-    "public/static/pdfjs/web/locale"
-  ]
+  }
 }
